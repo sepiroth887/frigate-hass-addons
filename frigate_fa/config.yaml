@@ -22,6 +22,8 @@ ingress_entry: /
 panel_admin: false
 homeassistant_api: true
 hassio_api: true
+environment:
+  OPENAI_BASE_URL: http://10.0.20.26:8002
 ports:
   8555/tcp: 8555
   8555/udp: 8555
