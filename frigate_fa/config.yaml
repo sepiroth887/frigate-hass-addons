@@ -1,6 +1,7 @@
 name: Frigate (Full Access fixed)
-version: 0.17.1
+version: 0.18.0
 breaking_versions:
+  - 0.18.0
   - 0.17.0
   - 0.16.0
   - 0.15.0
@@ -23,7 +24,7 @@ panel_admin: false
 homeassistant_api: true
 hassio_api: true
 environment:
-  OPENAI_BASE_URL: http://10.0.20.26:8002
+  OPENAI_BASE_URL: http://thor.fingerweg.co:8002
 ports:
   8555/tcp: 8555
   8555/udp: 8555
